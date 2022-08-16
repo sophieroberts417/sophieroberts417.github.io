@@ -10,9 +10,7 @@ html {
   }
   
   #top-section {
-    background-image: url("../images/logos/dadeyefull.jpg");
-    background-position: top center;
-    background-attachment: cover;
+    background-image: url("../images/logos/widescreeneye.jpg");
     background-size: cover;
     height: 90vh;
     width: 100%;
