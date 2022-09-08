@@ -234,8 +234,8 @@ html {
     }
   }
   
-  /* 731px is first menu break */
-  @media screen and (max-width: 731px) {
+  /* first menu break */
+  @media screen and (max-width: 933px) {
     html {
       scroll-padding-top: 120px;
     }
@@ -244,13 +244,29 @@ html {
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     h1 {
-      font-size: 3em;
+      font-size: 3.3em;
+    }
+    h2{
+      font-size: 2em;
+    }
+    .p-one-content{
+      grid-gap: 0px;
     }
   }
   
-  @media screen and (max-width: 415px) {
+
+  @media screen and (max-width: 590px) {
+    h1 {
+      font-size: 2.8em;
+    }
+    h2{
+      font-size: 1.5em;
+    }
+  }
+
+  @media screen and (max-width: 492px) {
     h1 {
       font-size: 2.5em;
     }
