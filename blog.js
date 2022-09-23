@@ -45,8 +45,14 @@ document.getElementById("body").onscroll = function myFunction() {
     modal.showModal();
   });
   
-  closeModal.addEventListener("click", () => {
-    modal.close();
-  });
+//   closeModal.addEventListener("click", () => {
+//     modal.close();
+//   });
   
-  
+  // Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+};
