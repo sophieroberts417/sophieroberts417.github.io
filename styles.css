@@ -227,6 +227,25 @@ html {
   background: rgb(0 0 0 / 0.4);
 }
 
+.details-whole {
+  margin: 0 5% 10% 5%;
+}
+
+.details-header {
+  font-size: 0.7em;
+}
+
+.details-date {
+  text-align: right;
+  font-weight: 500;
+}
+
+.details-desc {
+  font-weight: 400;
+  font-size: 1.05em;
+  line-height: 1.5;
+}
+
 .button {
   border: 0;
   cursor: pointer;
