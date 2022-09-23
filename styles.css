@@ -273,6 +273,13 @@ h1 {
   cursor: pointer;
 }
 
+/* images in modal*/
+.details-gallery img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 /* 100% Image Width on Smaller Screens */
 /* @media only screen and (max-width: 700px) {
   .modal-content {

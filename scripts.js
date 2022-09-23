@@ -45,15 +45,16 @@ openModal.addEventListener("click", () => {
   modal.showModal();
 });
 
-// closeModal.addEventListener("click", () => {
-//   modal.close();
-// });
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
 
+// NEED TO RESET LINK AFTER CLOSE TO WORK
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+// var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-  modal.style.display = "none";
-};
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function () {
+//   modal.style.display = "none";
+// };
 
