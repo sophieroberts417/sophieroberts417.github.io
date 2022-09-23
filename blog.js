@@ -36,16 +36,17 @@ document.getElementById("body").onscroll = function myFunction() {
     document.documentElement.scrollTop = 0;
   }
   
-  // detail page pop ups
-const modal = document.querySelector("#modal");
-const openModal = document.querySelector(".open-button");
-const closeModal = document.querySelector(".close-button");
-
-openModal.addEventListener("click", () => {
-  modal.showModal();
-});
-
-closeModal.addEventListener("click", () => {
-  modal.close();
-});
-
+  // blog post pop ups
+  const modal = document.querySelector("#modal");
+  const openModal = document.querySelector(".open-button");
+  const closeModal = document.querySelector(".close-button");
+  
+  openModal.addEventListener("click", () => {
+    modal.showModal();
+  });
+  
+  closeModal.addEventListener("click", () => {
+    modal.close();
+  });
+  
+  

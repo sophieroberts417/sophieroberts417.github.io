@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sophie Roberts Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="blog.css">
+
+</head>
+
+<body id="body">
+
+  <div class="navbar-sticky-class" id="navbar-sticky">
+    <ul>
+      <li><a href="#design">Design. </a></li>
+      <li><a href="#architecture">Architecture. </a></li>
+      <li><a href="#painting">Painting. </a></li>
+      <li><a href="#illustration">Illustration. </a></li>
+      <li><a href="#photography">Photography. </a></li>
+      <li><a href="#blog"><em><strong>Blog.</strong></em></a></li>
+
+    </ul>
+  </div>
+
+  <div id="top-section">
+    <div id="navbar">
+      <ul>
+        <li><a href="#design">Design. </a></li>
+        <li><a href="#architecture">Architecture. </a></li>
+        <li><a href="#painting">Painting. </a></li>
+        <li><a href="#illustration">Illustration. </a></li>
+        <li><a href="#photography">Photography. </a></li>
+        <li><a href="#blog"><em><strong>Blog.</strong></em></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <button onclick="topFunction()" id="my-btn" title="Go to top">Top &#x2191;</button>
+
+  <!--   start of BLOG -->
+  <!--   paste the following section into template of front page - replace other project content -->
+
+  <section class="projects">
+    <div class="cat-title">
+      <h1 id="blog">Diary of a <br> Designed World.</h1>
+    </div>
+
+    <div class="blog-intro">
+      <p>A collection of thoughts and observations on things I’ve experienced. Whether we are sitting in a classroom, wandering through a museum, or just walking down the street, the spaces and objects around us are constantly teaching us. Good or bad, everything experienced in daily life has been designed in some way. I find it helpful to take note and occasionally step back to reflect on the experience. How has this design affected me and what can I learn from it? How can that impact how I design going forward? Or just how I experience the quotidien? If nothing else, I hope to create a record of cool things I’ve experienced.
+      </p>
+    </div>
+
+    <!--     new project  -->
+    <div class="p-one">
+      <div class="line-small"></div>
+      <button class="button open-button">
+        <div class="p-one-content">
+          <h2 class="project-title">Two Rooms. <br>Eight Paintings.</h2>
+          <img src="images/projects/branding/Tumbleweed/more brand boards-01.jpg">
+          <p class="date">August 2022</p>
+        </div>
+      </button>
+    </div>
+
+    <!--     corresponding modal to project above  -->
+    <dialog class="modal" id="modal">
+      <div class="details-whole">
+        <div class="details-header">
+          <h1 class="details-title">Two Rooms. Eight Paintings.</h1>
+          <div class="line-small"></div>
+          <h2 class="details-date">August 2022</h2>
+        </div>
+
+        <div class="details-desc">
+          <p><strong>A museum experience like no other.</strong> Located on the main level of the Musée de l’Orangerie, the <i>Water Lilies</i> installation consists of two elegantly designed elliptical rooms that seamlessly guide people past all eight paintings. The soft white walls, evenly diffused natural light, and thin gold frames create a minimally distracting viewing experience, unlike many other museums. If these paintings were stuck onto the walls of an expansive hall in the Louvre, they would be swallowed whole. The beauty of these paintings can be fully and uninterruptedly appreciated because of the careful curation of the exhibition room. Its structured layout follows the specifications given by Claude Monet in his final will. Monet didn't want to only observe and paint these landscapes; he wanted to design their viewing experience in specific and intentional ways. For instance, each vignette's precise orientation with respect to the sun corresponds to the time of day captured in it. Before visiting, I didn’t know anything about this layout or design, yet my instant captivation and fascination with the work made the curator's intentional designs impossible to ignore. The presentation and demonstration of the paintings was as careful an expression of the artistic process as the portraits themselves. I was at the museum for nearly two hours and did not leave these two rooms. The elliptical bench in the middle of each room parallels the curve of the wall and gives visitors a place to sit in front of each landscape. The paintings themselves force you to be patient; force you to slow down, to examine the small details, and how they fit into the larger landscape. I’d be remiss not to point out the rooms are essentially silent, which is a rare and improbable phenomenon for a bustling, mid-size art museum; but, the gravity and power of the pieces inspire it. That, in addition to the carefully designed acoustics of the room, add to the meditative quality generated by the entire space. If I am ever in Paris again, I will go back in a heartbeat.</p>
+        </div>
+
+        <div class="details-gallery">
+          <img src="https://images.france.fr/zeaejvyq9bhj/50SO3DJD5YKw4IqYOaamsk/f95f447bce27eb58a51546a54db9ac77/1120x490-Montagne.jpg?w=1120&h=491&q=70&fl=progressive&fit=fill">
+        </div>
+      </div>
+    </dialog>
+
+  </section>
+
+</body>
+<script type="text/javascript" src="blog.js"></script>
+
+</html>

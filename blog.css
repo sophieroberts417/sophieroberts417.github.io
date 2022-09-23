@@ -9,6 +9,22 @@ html {
     margin: 0;
   }
   
+  .blog-intro {
+    margin-right: 170px;
+    margin-bottom: 50px;
+  }
+  
+  .details-gallery {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 5vw);
+      grid-gap: 15px;
+  }
+  
+  .details-gallery img{
+    width: 100%;
+  }
+  
   #top-section {
     background-image: url("../images/logos/widescreeneye.jpg");
     background-size: cover;
@@ -93,11 +109,11 @@ html {
   }
   
   /* .categories ul {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
-  } */
+      display: block;
+      position: absolute;
+      bottom: 0;
+      padding-bottom: 20px;
+    } */
   
   .intro-grid-container {
     color: #33242a;
@@ -136,7 +152,7 @@ html {
   }
   
   /* new projects start here
-   */
+     */
   .projects {
     margin: 8% 13% 10% 13%;
   }
@@ -176,7 +192,7 @@ html {
   .date {
     font-weight: 500;
     text-align: right;
-    font-size: 1.4em;
+    font-size: 1.7em;
   }
   
   #my-btn {
@@ -217,24 +233,44 @@ html {
   }
   
   /* modal styling below */
-.modal {
-  max-width: 100ch;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-
-.modal::backdrop {
-  background: rgb(0 0 0 / 0.4);
-}
-
-.button {
-  border: 0;
-  cursor: pointer;
-  background: var(--gray-8);
-  color: var(--gray-2);
-}
-
-/* responsive adjustments below */
+  .modal {
+    max-width: 100ch;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .modal::backdrop {
+    background: rgb(0 0 0 / 0.4);
+  }
+  
+  .details-whole {
+    margin: 0 5% 10% 5%;
+  }
+  
+  .details-header {
+    font-size: 0.7em;
+  }
+  
+  .details-date {
+    text-align: right;
+    font-weight: 500;
+  }
+  
+  .details-desc {
+    font-weight: 400;
+    font-size: 1.05em;
+    line-height: 1.5;
+  }
+  
+  .button {
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    background: var(--gray-8);
+    color: var(--gray-2);
+  }
+  
+  /* responsive adjustments below */
   @media screen and (max-width: 1000px) {
     .p-one-content {
       grid-template-columns: 1fr;
@@ -254,8 +290,8 @@ html {
     }
   }
   
-  /* first menu break */
-  @media screen and (max-width: 933px) {
+  /* 731px is first menu break */
+  @media screen and (max-width: 731px) {
     html {
       scroll-padding-top: 120px;
     }
@@ -264,29 +300,13 @@ html {
     }
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 600px) {
     h1 {
-      font-size: 3.3em;
-    }
-    h2{
-      font-size: 2em;
-    }
-    .p-one-content{
-      grid-gap: 0px;
+      font-size: 3em;
     }
   }
   
-
-  @media screen and (max-width: 590px) {
-    h1 {
-      font-size: 2.8em;
-    }
-    h2{
-      font-size: 1.5em;
-    }
-  }
-
-  @media screen and (max-width: 492px) {
+  @media screen and (max-width: 415px) {
     h1 {
       font-size: 2.5em;
     }
@@ -297,4 +317,5 @@ html {
       margin-top: -20vh;
     }
   }
+  
   
