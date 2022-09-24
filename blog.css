@@ -270,6 +270,10 @@ html {
     color: var(--gray-2);
   }
 
+  .details-gallery img{
+    display: block;
+  }
+
   /* The Close Button */
 .close {
     position: absolute;

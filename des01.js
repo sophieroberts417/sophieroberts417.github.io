@@ -70,5 +70,5 @@ function showSlides(n) {
 
 // smooth scroll into view on load
 document.getElementById("navbar").scrollIntoView();
-window.SmoothScrollOptions = { animationTime: 1000 };
+window.SmoothScrollOptions = { behavior: "smooth", animationTime: 1000 };
 
