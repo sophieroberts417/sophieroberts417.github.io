@@ -29,6 +29,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  z-index: 1;
 }
 
 #navbar li {
@@ -67,6 +68,7 @@ body {
   visibility: visible;
   opacity: 1;
   transition: 0.5s ease-in-out;
+  z-index: 1;
 }
 
 #navbar-sticky li {
