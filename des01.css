@@ -44,6 +44,7 @@ body {
   font-weight: 500;
   padding-right: 0.7em;
   text-transform: uppercase;
+  vertical-align: middle;
 }
 
 #navbar a {
@@ -83,6 +84,7 @@ body {
   font-weight: 500;
   padding-right: 0.7em;
   text-transform: uppercase;
+  vertical-align: middle;
 }
 
 #navbar-sticky a {
@@ -257,14 +259,14 @@ body {
 
 #navbar img {
   width: 30px;
-  /* margin: 0 15px 0 15px; */
+  margin: 0 15px 0 0;
   display: flex;
   float: right;
 }
 
 #navbar-sticky img {
-  width: 20px;
-  /* margin: 0 15px 0 15px; */
+  width: 30px;
+  margin: 0 15px 0 0;
   display: flex;
   float: right;
 }
