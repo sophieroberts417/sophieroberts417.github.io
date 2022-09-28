@@ -67,6 +67,7 @@ body {
   visibility: visible;
   opacity: 1;
   transition: 0.5s ease-in-out;
+  z-index:1;
 }
 
 #navbar-sticky li {
@@ -268,9 +269,6 @@ img {
   margin: auto;
 }
 
-.slideshow-container img {
-  z-index: -1;
-}
 /* Next & previous buttons */
 .prev,
 .next {
