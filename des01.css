@@ -257,14 +257,14 @@ body {
 
 #navbar img {
   width: 30px;
-  margin: 0 15px 0 15px;
+  /* margin: 0 15px 0 15px; */
   display: flex;
   float: right;
 }
 
 #navbar-sticky img {
   width: 20px;
-  margin: 0 15px 0 15px;
+  /* margin: 0 15px 0 15px; */
   display: flex;
   float: right;
 }
