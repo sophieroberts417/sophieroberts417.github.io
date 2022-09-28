@@ -67,7 +67,7 @@ body {
   visibility: visible;
   opacity: 1;
   transition: 0.5s ease-in-out;
-  z-index:1;
+  z-index: 1;
 }
 
 #navbar-sticky li {
@@ -247,6 +247,7 @@ h1 {
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
 }
@@ -264,7 +265,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 70%;
+  width: 60%;
   position: relative;
   margin: auto;
 }
@@ -301,7 +302,7 @@ img {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -322,8 +323,8 @@ img {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
