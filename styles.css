@@ -110,26 +110,26 @@ a:hover {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.8em;
   margin-bottom: 3%;
   text-transform: uppercase;
 }
 
 .intro-grid-container img {
-  width: 70%;
+  width: 80%;
   float: left;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 .intro-grid-container a {
   text-decoration: none;
   color: #33242a;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
 }
 
 .intro-grid-container p {
   color: #33242a;
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
   margin: 0;
 }
 
