@@ -31,6 +31,10 @@ body {
   width: 100%;
 }
 
+video{
+  width:100%;
+}
+
 #navbar li {
   color: #33242a;
   font-size: 1.2em;
