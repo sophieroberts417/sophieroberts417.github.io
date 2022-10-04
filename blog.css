@@ -285,7 +285,7 @@ html {
   }
 
   .details-gallery img{
-    display: block;
+    display: inherit;
   }
 
   /* The Close Button */
