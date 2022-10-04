@@ -190,9 +190,9 @@ html {
   
   .projects img {
     object-fit: cover;
-    width: 300px;
+    /* width: 300px; */
     height: 200px;
-    padding-top: 26px;
+    padding-top: 10px;
     margin-left: auto;
     display: block;
   }
@@ -285,7 +285,7 @@ html {
   }
 
   .details-gallery img{
-    display: inherit;
+    display: inline;
   }
 
   /* The Close Button */
